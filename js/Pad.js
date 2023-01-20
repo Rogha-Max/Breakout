@@ -3,7 +3,7 @@
 import G from "./G.js";
 
 export default class Pad extends PIXI.Graphics{
-    constructor(w = 100, h = 20, color = 0xFF0000, speed = 7, x = G.wST / 2, y = G.hST - h) {
+    constructor(w = 100, h = 20, color = 0xFF0000, speed = 15, x = G.wST / 2, y = G.hST - h) {
         //console.log("instance du Pad créée")
 
         // Invoque la super classe
